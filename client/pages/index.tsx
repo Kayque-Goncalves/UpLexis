@@ -1,9 +1,10 @@
-import type { NextPage } from 'next'
+import { Carousel } from '../components/Carousel'
+import styles from './home.module.scss'
 
-const Home: NextPage = () => {
+export default function Home() : JSX.Element {
   return (
-    <h1>Page</h1>
+    <div className={ styles.homeWrapper }>
+      <Carousel />
+    </div>
   )
 }
-
-export default Home
