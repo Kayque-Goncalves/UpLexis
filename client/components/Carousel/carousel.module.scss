@@ -63,11 +63,10 @@
 
 .carouselFooter {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 
   .priceInfos {
-    width: 100%;
-    max-width: 250px;
+    width: fit-content;
 
     span {
       &:first-child {

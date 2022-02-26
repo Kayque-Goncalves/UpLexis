@@ -1,5 +1,7 @@
 import styles from './carousel.module.scss'
 
+import { Button } from '../Button'
+
 function Carousel() : JSX.Element {
   return (
     <div className={ styles.carouselWrapper }>
@@ -26,7 +28,7 @@ function Carousel() : JSX.Element {
           <span>40,00</span>
         </div>
 
-        {/* Buttom component */}
+        <Button text="Saiba mais" />
       </footer>
     </div>
   )
