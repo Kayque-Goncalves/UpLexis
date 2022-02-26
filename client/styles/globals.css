@@ -24,6 +24,8 @@ html, body, #root {
   --textDark: #2B2B2B;
   --text: #ADADAD;
   --textLight: #FE8C22;
+
+  --fade: linear-gradient(49deg, rgba(255,192,147,1) 0%, rgba(246,109,9,1) 89%);
 }
 
 a {
