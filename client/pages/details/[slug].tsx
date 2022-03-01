@@ -7,8 +7,15 @@ import { InformativeCard } from '../../components/InformativeCard'
 import { CarouselItem } from '../../components/CarouselItem'
 import { Button } from '../../components/Button'
 import { Carousel } from '../../components/Carousel'
+import { GetStaticPaths, GetStaticProps } from 'next'
+import { api } from '../../services/api'
+import { ServicesProps } from '..'
 
-export default function Details() : JSX.Element {
+interface ServiceDetailsProps {
+  service: ServicesProps
+}
+
+export default function Details(service: ServiceDetailsProps) : JSX.Element {
   return (
     <div className={ styles.details }>
       <Carousel>
@@ -20,7 +27,7 @@ export default function Details() : JSX.Element {
       <section>
         <div className={ styles.details__title }>
           <FiChevronLeft className={ styles.details__title__backButton } stroke="#FE7000" />
-          <h2>Hitórico Empresarial</h2>
+          <h2>{ service.service.title }</h2>
         </div>
 
         <div className={ styles.details__cardsCarousel }>
@@ -60,4 +67,44 @@ export default function Details() : JSX.Element {
       </section>
     </div>
   )
+}
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const { data } = await api.get('services')
+
+  const paths = data.map((service: ServicesProps) => {
+    console.log('service', service)
+
+    return {
+      params: {
+        slug: service.id
+      }
+    }
+  })
+
+  return {
+    paths,
+    fallback: 'blocking',
+  }
+}
+
+export const getStaticProps: GetStaticProps = async (context) => {
+  const slug = context.params
+  const { data } = await api.get(`services/${ slug }`)
+
+  const service = {
+    id: Number(data.id),
+    title: data.title,
+    serviceType: data.serviceType,
+    shortDescription: data.shortDescription,
+    longDescription: data.longDescription,
+    icon: data.icon,
+    price: data.price 
+  }
+
+  return {
+    props: {
+      service,
+    }
+  }
 }
