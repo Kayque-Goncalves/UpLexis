@@ -1,0 +1,202 @@
+{
+  "banners": [
+    {
+      "id": "1",
+      "title": "Histórico Empresarial",
+      "serviceType": "business",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis commodi iusto placeat quisquam libero non fuga, officiis voluptas, minus iure tenetur velit dolore fugit perferendis, consequuntur laborum aspernatur beatae? Quod.",
+      "longDescription": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, blanditiis provident? Neque, omnis beatae? Iusto, sunt laboriosam necessitatibus, perspiciatis hic eum, minima labore itaque id dicta tenetur. Similique, itaque dolore. <br /><br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolores mollitia possimus, voluptatum temporibus sint, nobis sapiente eum commodi ea aliquid? Porro dolorem debitis ex velit consectetur similique earum incidunt?</p>",
+      "thumbnail": "business",
+      "price": "40,00"
+    },
+    {
+      "id": "2",
+      "title": "Financeiro",
+      "serviceType": "financial",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis commodi iusto placeat quisquam libero non fuga, officiis voluptas, minus iure tenetur velit dolore fugit perferendis, consequuntur laborum aspernatur beatae? Quod.",
+      "longDescription": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, blanditiis provident? Neque, omnis beatae? Iusto, sunt laboriosam necessitatibus, perspiciatis hic eum, minima labore itaque id dicta tenetur. Similique, itaque dolore. <br /><br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolores mollitia possimus, voluptatum temporibus sint, nobis sapiente eum commodi ea aliquid? Porro dolorem debitis ex velit consectetur similique earum incidunt?</p>",
+      "thumbnail": "financial",
+      "price": "35,90"
+    },
+    {
+      "id": "3",
+      "title": "Sócio Ambiental",
+      "serviceType": "environmental",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis commodi iusto placeat quisquam libero non fuga, officiis voluptas, minus iure tenetur velit dolore fugit perferendis, consequuntur laborum aspernatur beatae? Quod.",
+      "longDescription": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, blanditiis provident? Neque, omnis beatae? Iusto, sunt laboriosam necessitatibus, perspiciatis hic eum, minima labore itaque id dicta tenetur. Similique, itaque dolore. <br /><br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolores mollitia possimus, voluptatum temporibus sint, nobis sapiente eum commodi ea aliquid? Porro dolorem debitis ex velit consectetur similique earum incidunt?</p>",
+      "thumbnail": "environmental",
+      "price": "109,00"
+    },
+    {
+      "id": "4",
+      "title": "Jurídico",
+      "serviceType": "legal",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis commodi iusto placeat quisquam libero non fuga, officiis voluptas, minus iure tenetur velit dolore fugit perferendis, consequuntur laborum aspernatur beatae? Quod.",
+      "longDescription": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, blanditiis provident? Neque, omnis beatae? Iusto, sunt laboriosam necessitatibus, perspiciatis hic eum, minima labore itaque id dicta tenetur. Similique, itaque dolore. <br /><br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolores mollitia possimus, voluptatum temporibus sint, nobis sapiente eum commodi ea aliquid? Porro dolorem debitis ex velit consectetur similique earum incidunt?</p>",
+      "thumbnail": "legal",
+      "price": "80,00"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Profissional",
+      "serviceType": "professional",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, labore necessitatibus officiis quisquam, maxime enim ea veritatis magnam dolor animi debitis deserunt repellendus.",
+      "longDescription": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, blanditiis provident? Neque, omnis beatae? Iusto, sunt laboriosam necessitatibus, perspiciatis hic eum, minima labore itaque id dicta tenetur. Similique, itaque dolore. <br /><br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolores mollitia possimus, voluptatum temporibus sint, nobis sapiente eum commodi ea aliquid? Porro dolorem debitis ex velit consectetur similique earum incidunt?</p>",
+      "icon": "FaBriefcase",
+      "price": "29.99"
+    },
+    {
+      "id": "2",
+      "title": "Reguladores",
+      "serviceType": "regulator",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, labore necessitatibus officiis quisquam, maxime enim ea veritatis magnam dolor animi debitis deserunt repellendus.",
+      "longDescription": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, blanditiis provident? Neque, omnis beatae? Iusto, sunt laboriosam necessitatibus, perspiciatis hic eum, minima labore itaque id dicta tenetur. Similique, itaque dolore. <br /><br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolores mollitia possimus, voluptatum temporibus sint, nobis sapiente eum commodi ea aliquid? Porro dolorem debitis ex velit consectetur similique earum incidunt?</p>",
+      "icon": "GiGreekTemple",
+      "price": "50.99"
+    },
+    {
+      "id": "3",
+      "title": "Sócio Ambiental",
+      "serviceType": "environmental",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, labore necessitatibus officiis quisquam, maxime enim ea veritatis magnam dolor animi debitis deserunt repellendus.",
+      "longDescription": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, blanditiis provident? Neque, omnis beatae? Iusto, sunt laboriosam necessitatibus, perspiciatis hic eum, minima labore itaque id dicta tenetur. Similique, itaque dolore. <br /><br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolores mollitia possimus, voluptatum temporibus sint, nobis sapiente eum commodi ea aliquid? Porro dolorem debitis ex velit consectetur similique earum incidunt?</p>",
+      "icon": "FaTree",
+      "price": "65.99"
+    },
+    {
+      "id": "4",
+      "title": "Jurídico",
+      "serviceType": "legal",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, labore necessitatibus officiis quisquam, maxime enim ea veritatis magnam dolor animi debitis deserunt repellendus.",
+      "longDescription": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, blanditiis provident? Neque, omnis beatae? Iusto, sunt laboriosam necessitatibus, perspiciatis hic eum, minima labore itaque id dicta tenetur. Similique, itaque dolore. <br /><br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolores mollitia possimus, voluptatum temporibus sint, nobis sapiente eum commodi ea aliquid? Porro dolorem debitis ex velit consectetur similique earum incidunt?</p>",
+      "icon": "ImHammer2",
+      "price": "29.99"
+    },
+    {
+      "id": "5",
+      "title": "Lista Restritivas",
+      "serviceType": "restrictive-list",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, labore necessitatibus officiis quisquam, maxime enim ea veritatis magnam dolor animi debitis deserunt repellendus.",
+      "longDescription": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, blanditiis provident? Neque, omnis beatae? Iusto, sunt laboriosam necessitatibus, perspiciatis hic eum, minima labore itaque id dicta tenetur. Similique, itaque dolore. <br /><br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolores mollitia possimus, voluptatum temporibus sint, nobis sapiente eum commodi ea aliquid? Porro dolorem debitis ex velit consectetur similique earum incidunt?</p>",
+      "icon": "BiBlock",
+      "price": "39.99"
+    },
+    {
+      "id": "6",
+      "title": "Mídia / Internet",
+      "serviceType": "midia",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, labore necessitatibus officiis quisquam, maxime enim ea veritatis magnam dolor animi debitis deserunt repellendus.",
+      "longDescription": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, blanditiis provident? Neque, omnis beatae? Iusto, sunt laboriosam necessitatibus, perspiciatis hic eum, minima labore itaque id dicta tenetur. Similique, itaque dolore. <br /><br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolores mollitia possimus, voluptatum temporibus sint, nobis sapiente eum commodi ea aliquid? Porro dolorem debitis ex velit consectetur similique earum incidunt?</p>",
+      "icon": "FaGlobeAmericas",
+      "price": "49.99"
+    },
+    {
+      "id": "7",
+      "title": "Bens e Imóveis",
+      "serviceType": "assets",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, labore necessitatibus officiis quisquam, maxime enim ea veritatis magnam dolor animi debitis deserunt repellendus.",
+      "longDescription": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, blanditiis provident? Neque, omnis beatae? Iusto, sunt laboriosam necessitatibus, perspiciatis hic eum, minima labore itaque id dicta tenetur. Similique, itaque dolore. <br /><br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolores mollitia possimus, voluptatum temporibus sint, nobis sapiente eum commodi ea aliquid? Porro dolorem debitis ex velit consectetur similique earum incidunt?</p>",
+      "icon": "GiCutDiamond",
+      "price": "29.99"
+    },
+    {
+      "id": "8",
+      "title": "Cadastro",
+      "serviceType": "register",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, labore necessitatibus officiis quisquam, maxime enim ea veritatis magnam dolor animi debitis deserunt repellendus.",
+      "longDescription": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, blanditiis provident? Neque, omnis beatae? Iusto, sunt laboriosam necessitatibus, perspiciatis hic eum, minima labore itaque id dicta tenetur. Similique, itaque dolore. <br /><br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolores mollitia possimus, voluptatum temporibus sint, nobis sapiente eum commodi ea aliquid? Porro dolorem debitis ex velit consectetur similique earum incidunt?</p>",
+      "icon": "GiPerson",
+      "price": "29.99"
+    },
+    {
+      "id": "9",
+      "title": "Financeiro",
+      "serviceType": "financial",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, labore necessitatibus officiis quisquam, maxime enim ea veritatis magnam dolor animi debitis deserunt repellendus.",
+      "longDescription": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, blanditiis provident? Neque, omnis beatae? Iusto, sunt laboriosam necessitatibus, perspiciatis hic eum, minima labore itaque id dicta tenetur. Similique, itaque dolore. <br /><br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolores mollitia possimus, voluptatum temporibus sint, nobis sapiente eum commodi ea aliquid? Porro dolorem debitis ex velit consectetur similique earum incidunt?</p>",
+      "icon": "FaPiggyBank",
+      "price": "109.99"
+    },
+    {
+      "id": "10",
+      "title": "Financeiro",
+      "serviceType": "financial",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, labore necessitatibus officiis quisquam, maxime enim ea veritatis magnam dolor animi debitis deserunt repellendus.",
+      "longDescription": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, blanditiis provident? Neque, omnis beatae? Iusto, sunt laboriosam necessitatibus, perspiciatis hic eum, minima labore itaque id dicta tenetur. Similique, itaque dolore. <br /><br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolores mollitia possimus, voluptatum temporibus sint, nobis sapiente eum commodi ea aliquid? Porro dolorem debitis ex velit consectetur similique earum incidunt?</p>",
+      "icon": "FaBriefcase",
+      "price": "109.99"
+    },
+    {
+      "id": "11",
+      "title": "Profissional",
+      "serviceType": "professional",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, labore necessitatibus officiis quisquam, maxime enim ea veritatis magnam dolor animi debitis deserunt repellendus.",
+      "longDescription": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, blanditiis provident? Neque, omnis beatae? Iusto, sunt laboriosam necessitatibus, perspiciatis hic eum, minima labore itaque id dicta tenetur. Similique, itaque dolore. <br /><br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolores mollitia possimus, voluptatum temporibus sint, nobis sapiente eum commodi ea aliquid? Porro dolorem debitis ex velit consectetur similique earum incidunt?</p>",
+      "icon": "FaBriefcase",
+      "price": "29.99"
+    },
+    {
+      "id": "12",
+      "title": "Sócio Ambiental",
+      "serviceType": "environmental",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, labore necessitatibus officiis quisquam, maxime enim ea veritatis magnam dolor animi debitis deserunt repellendus.",
+      "longDescription": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, blanditiis provident? Neque, omnis beatae? Iusto, sunt laboriosam necessitatibus, perspiciatis hic eum, minima labore itaque id dicta tenetur. Similique, itaque dolore. <br /><br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolores mollitia possimus, voluptatum temporibus sint, nobis sapiente eum commodi ea aliquid? Porro dolorem debitis ex velit consectetur similique earum incidunt?</p>",
+      "icon": "FaTree",
+      "price": "65.99"
+    }
+  ],
+  "categories": [
+    {
+      "id": "0",
+      "title": "Todas",
+      "icon": "FaGlobe"
+    },
+    {
+      "id": "1",
+      "title": "Profissional",
+      "icon": "FaBriefcase"
+    },
+    {
+      "id": "2",
+      "title": "Reguladores",
+      "icon": "GiGreekTemple"
+    },
+    {
+      "id": "3",
+      "title": "Sócio Ambiental",
+      "icon": "FaTree"
+    },
+    {
+      "id": "4",
+      "title": "Jurídico",
+      "icon": "ImHammer2"
+    },
+    {
+      "id": "5",
+      "title": "Lista Restritivas",
+      "icon": "BiBlock"
+    },
+    {
+      "id": "6",
+      "title": "Mídia / Internet",
+      "icon": "FaGlobeAmericas"
+    },
+    {
+      "id": "7",
+      "title": "Bens e Imóveis",
+      "icon": "GiCutDiamond"
+    },
+    {
+      "id": "8",
+      "title": "Cadastro",
+      "icon": "GiPerson"
+    },
+    {
+      "id": "9",
+      "title": "Financeiro",
+      "icon": "FaPiggyBank"
+    }
+  ]
+}
