@@ -10,5 +10,5 @@ Para iniciar o projeto
   npm run dev or yarn dev
   
   // Server will run on port 5000
-  // Client will run in port 3000
+  // Client will run on port 3000
 ```
