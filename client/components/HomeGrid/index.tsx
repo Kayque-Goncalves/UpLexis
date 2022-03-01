@@ -1,7 +1,12 @@
+import { ServicesProps } from '../../pages'
 import { ServicesCard } from '../ServicesCard'
 import styles from './homeGrid.module.scss'
 
-function HomeGrid() : JSX.Element {
+interface HomeGridProps {
+  allServices: ServicesProps[]
+}
+
+function HomeGrid({ allServices }: HomeGridProps) : JSX.Element {
   return (
     <div className={ styles.homeGridWrapper }>
       <div className={ styles.orderBy }>
@@ -17,18 +22,11 @@ function HomeGrid() : JSX.Element {
       </div>
 
       <div className={ styles.cardsWrapper }>
-        <ServicesCard />
-        <ServicesCard />
-        <ServicesCard />
-        <ServicesCard />
-        <ServicesCard />
-        <ServicesCard />
-        <ServicesCard />
-        <ServicesCard />
-        <ServicesCard />
-        <ServicesCard />
-        <ServicesCard />
-        <ServicesCard />
+        {allServices.map((service: ServicesProps, index: number) => {
+          return (
+            <ServicesCard key={ index } { ...service } />
+          )
+        })}
       </div>
     </div>
   )
