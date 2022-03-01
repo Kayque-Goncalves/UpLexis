@@ -1,0 +1,117 @@
+.informativeCard {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+
+  max-width: 650px;
+  width: 100%;
+  background-color: #fff;
+
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  
+  padding: 20px;
+
+  &__header {
+    display: flex;
+    flex-direction: row;
+
+    &__iconBox {
+      display: flex;
+
+      align-items: center;
+      justify-content: center;
+
+      width: 30px;
+      height: 20px;
+
+      border-radius: 5px;
+      background-color: var(--lightGray);
+
+      &__icon {
+        width: 15px;
+        height: 15px;
+      }
+    }
+
+    &__titleBox {
+      display: flex;
+      flex-direction: row;
+      gap: 5px;
+
+      align-items: center;
+      justify-content: center;
+
+      height: 20px;
+
+      h2 {
+        font-size: 0.8rem;
+        font-weight: 700;
+        line-height: 2rem;
+        color: var(--textDark)
+      }
+
+      svg {
+        width: 10px;
+        height: 10px;
+
+        padding-top: 2px;
+      }
+    }
+
+    &__labelsBox {
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+
+      padding-left: 30px;
+
+      align-items: center;
+      justify-content: center;
+
+      &__label {
+        display: flex;
+        flex-direction: row;
+
+        gap: 5px;
+
+        span {
+          font-size: 0.7rem;
+          font-weight: 700;
+          line-height: 0.7rem;
+          color: var(--textDark);
+        }
+  
+        svg {
+          width: 12px;
+          height: 12px;
+        }
+      }
+    }
+  }
+
+  &__content {
+    padding: 20px 0;
+
+    div {
+      display: flex;
+      width: 100%;
+      height: 200px;
+  
+      background-color: var(--mediumGray);
+      border-radius: 5px;
+    }
+  }
+
+  &__description {
+    padding: 0px 15px;
+
+    p {
+      font-size: 0.9rem;
+      font-weight: 400;
+      line-height: 1.1rem;
+      color: var(--activeOrange);
+    }
+  }
+}
