@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "server": "json-server server.json --watch --delay 300 --port 5000"
   },
   "dependencies": {
     "@types/react-icons": "^3.0.0",
