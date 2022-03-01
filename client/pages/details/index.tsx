@@ -1,16 +1,21 @@
 import { FiChevronLeft } from 'react-icons/fi'
 import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs'
 
+import styles from './details.module.scss'
+
+import { InformativeCard } from '../../components/InformativeCard'
+import { CarouselItem } from '../../components/CarouselItem'
 import { Button } from '../../components/Button'
 import { Carousel } from '../../components/Carousel'
-
-import styles from './details.module.scss'
-import { InformativeCard } from '../../components/InformativeCard'
 
 export default function Details() : JSX.Element {
   return (
     <div className={ styles.details }>
-      <Carousel />
+      <Carousel>
+        <CarouselItem />
+        <CarouselItem />
+        <CarouselItem />
+      </Carousel>
 
       <section>
         <div className={ styles.details__title }>
